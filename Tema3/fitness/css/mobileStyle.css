@@ -1,0 +1,86 @@
+body,
+header,
+nav,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    max-width: 100%;
+    position: sticky;
+}
+
+header img {
+    margin: 0 auto;
+    display: block;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+nav li {
+    display: block;
+    font-size: 1.4em;
+    font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+
+}
+
+main {
+    padding: 2%;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0.2em;
+    margin-bottom: 0px;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* about us */
+
+#weights,
+#training,
+#cardio {
+    width: 100%;
+    float: left;
+    margin: 0 2%;
+}
+
+#about img {
+    max-width: 100%;
+}
