@@ -33,11 +33,11 @@
   <!-- MatrixCodeType is 3x3 because we have created a 3x3 marker before using the online tool  -->
   <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
     <a-assets>
-      <img id="myImg" src="https://cdn.jsdelivr.net/gh/EloyFernandezRodriguez/DIW.github.io@master/RA/0.png">
+      <img id="myImg" src="https://cdn.jsdelivr.net/gh/EloyFernandezRodriguez/DIW.github.io@master/bicho.png">
     </a-assets>
     <!-- marker id=0 -->
     <a-marker type="barcode" value="0">
-      <a-entity gltf-model="#gltf"></a-entity>
+      <a-image src="#myImg"></a-image>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
